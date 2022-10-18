@@ -1,0 +1,91 @@
+
+.navbar-container1{
+  width: 100%;
+  font-family: ArialMT, Arial;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.homeLogo{
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.mobNavIcon{
+  width: 40px;
+  height: 40px;
+  border: 2px #949494 solid;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 50px;
+  display: none;
+  cursor: pointer;
+}
+
+.closeNav{
+  font-size: 40px;
+  color: #949494;
+  margin-top: -5px;
+  margin-left: 8px;
+}
+
+.mobNavIconLine{
+  width: 30px;
+  height: 2px;
+  background-color: #949494;
+  margin-top: 8.5px;
+  margin-left: 5px;
+}
+
+.nav-item2{
+  list-style-type: none;
+  margin-right: 30px;
+  color: #595959;
+  padding-top: 5px
+}
+
+.nav-links{
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 960px) {
+
+  .navbar-container1{
+    display: none;
+  }
+  .navbar-container{
+    padding-bottom: 10px;
+    justify-content: space-between;
+  }
+  .mobNavIcon{
+    display: block;
+  }
+  
+}
+
+@media screen and (max-width: 750px) {
+  .mobNavIcon{
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .homeLogo{
+    margin-left: 40px;
+  }
+  .mobNavIcon{
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .homeLogo{
+    margin-left: 20px;
+  }
+  .mobNavIcon{
+    margin-right: 10px;
+  }
+}

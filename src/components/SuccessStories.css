@@ -1,0 +1,96 @@
+.successContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.successInputWrapper{
+    margin-left: 50%;
+}
+.successHeaderBg{
+    background-color: #017e34;
+    height: 120px;
+    width: 100vw;
+}
+.noSuccess{
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.successMainInput{
+    border: 1px #d3d3d3 solid;
+    border-radius: 3px; 
+    height: 40px;
+    width: 300px;
+    outline: none;
+    padding-left: 10px;
+}
+.successHeader{
+    position: absolute;
+    margin-top: 20px;
+    font-size: 60px;
+    margin-left: 100px;
+    color: white;
+}
+@media (max-width: 900px){
+    .successInputWrapper{
+        margin-left: 30%;
+    }
+
+}
+
+@media (max-width: 750px){
+    .successHeader{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    .successHeaderBg{
+        height: 90px;
+    }
+
+}
+
+@media (max-width: 700px){
+    .successInputWrapper{
+        margin-left: 10%;
+    }
+    .noSuccess{
+        margin-left: 10%;
+    }
+
+}
+
+@media (max-width: 500px){
+    .successInputWrapper{
+        margin-left: 5%;
+    }
+    .noSuccess{
+        margin-left: 5%;
+        font-size: 30px;
+    }
+    .successHeader{
+        margin-left: 5%;
+    }
+
+}
+
+@media (max-width: 400px){
+    .successInputWrapper{
+        width: 250px;
+    }
+    
+    .successMainInput{
+        width: 250px;
+    }
+    .successHeader{
+        font-size: 30px;
+    }
+
+
+}
+@media (max-width: 315px){
+    
+    .successMainInput{
+        width: 200px;
+    }
+
+}

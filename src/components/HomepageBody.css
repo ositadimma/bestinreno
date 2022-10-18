@@ -1,0 +1,678 @@
+.homeImg0{
+    margin-top: -30px;
+    height: 550px;
+    width: 100%;
+}
+
+.bgText{
+    position: absolute;
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 120px
+}
+
+.bgHeader{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bgContent{
+    font-size: 20px;
+    width: 70%;
+}
+
+.first{
+    display: flex !important;
+    margin-top: 80px;
+}
+
+.firstDetail{
+    margin-top: 30px;
+    margin-left: 100px; 
+    border-radius: 12px;
+    box-shadow: rgba(132, 99, 0, 0.62) 0px 8px 16px 0px !important;
+    background-color: #B39000;
+    color: #FFFFFF;
+    width: 550px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: 30px;
+}
+
+.firstDetailContent{
+    font-size: 18px;
+}
+
+
+.svg{
+    width: 550px;
+    margin-left: 50px;
+}
+
+.svg2Container{
+    position: absolute;
+    margin-left: 200px;
+}
+
+.samplesContainer{
+    background-color: #017e34;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.samples{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: 70px;
+}
+
+.svg2{
+    height: 500px;
+}
+
+.secondContainer{
+    margin-top: 80px;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.secondDetail{
+    margin-left: 100px; 
+    border-radius: 12px;
+    box-shadow: rgba(3, 99, 42, 0.76) 0px 8px 16px 0px !important;
+    background-color: #017e34;
+    color: #FFFFFF;
+    width: 550px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: 30px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.secondDetailContent{
+    font-size: 18px;
+}
+
+.homeImg3{
+    width: 100%;
+}
+
+.sample1{
+    width: 350px;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.sampleImg1{
+    width: 348px;
+    background-color: #fff;
+    margin-top: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sampleImg2{
+    width: 348px;
+    background-color: #fff;
+    margin-top: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sample2{
+    width: 350px;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.sample3{
+    width: 350px;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.qual1Content{
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    color: #18191A;
+}
+
+.qual2Content{
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.qual3Content{
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+}
+
+.qual4Content{
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    margin-left: 10px;
+}
+.sampleImg3{
+    width: 348px;
+    background-color: #fff;
+    margin-top: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.samplesWrapper{
+    display: table;
+    margin: 0 auto;
+}
+
+.qualitiesContainer{
+    display: flex;
+    justify-content: center;
+}
+.qualitiesWrapper{
+    display: table;
+    margin: 0 auto;
+}
+
+.qualitiesImg{
+    width: 45%;
+}
+
+.qualitiesText{
+    display: table;
+    margin: 0 auto;
+}
+
+.qual1{
+    display: flex;
+    margin-left: 10px;
+}
+.qualHeader{
+    text-align: center;
+      margin-top: 50px;
+      color: #18191A;
+}
+
+.qual2{
+    display: flex;
+    margin-left: 10px;
+}
+@media (max-width: 1300px){
+    .svg{
+        width: 450px;
+    }
+    .firstDetail{
+        width: 450px;
+        margin-left: 50px;
+    }
+    
+  }
+
+  @media (max-width: 1115px){
+    .svg2Container{
+        margin-left: 80px;
+    }
+    .sample1{
+        width: 300px;
+    }
+    .sampleImg1{
+        width: 298px;
+    }
+    .sample2{
+        width: 300px;
+    }
+    .sampleImg2{
+        width: 298px;
+    }
+    .sample3{
+        width: 300px;
+    }
+    .sampleImg3{
+        width: 298px;
+    }
+    .qualitiesContainer{
+        flex-direction: column;
+        width: 700px;
+    }
+    .qualitiesImg{
+        width: 700px;
+    }
+    .qual1{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .qual2{
+        margin-left: 0px;
+    }
+  }
+  @media (max-width: 1070px){
+    .secondDetail{
+        margin-left: 35%;
+    }
+  }
+
+  
+
+  @media (max-width: 1045px){
+    .svg{
+        width: 350px;
+    }
+    .firstDetail{
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .firstDetailHeader{
+        font-size: 16px;
+    }
+
+
+    .firstDetailContent{
+        font-size: 14px;
+    }
+
+    .stats{
+        flex-direction: column;
+    }
+    .stat2{
+        margin-top: 20px;
+    }
+    .stat3{
+        margin-top: 20px;
+    }
+    .stat4{
+        margin-top: 20px;
+    }
+
+    .secondDetail{
+        width: 350px;
+        margin-left: 45%;
+    }
+
+    .secondDetailHeader{
+        font-size: 16px;
+    }
+
+
+    .secondDetailContent{
+        font-size: 14px;
+    }
+  }
+
+  @media (max-width: 1030px){
+    .sample1{
+        width: 250px;
+    }
+    .sampleImg1{
+        width: 248px;
+    }
+    .sample2{
+        width: 250px;
+    }
+    .sampleImg2{
+        width: 248px;
+    }
+    .sample3{
+        width: 250px;
+    }
+    .sampleImg3{
+        width: 248px;
+    }
+  }
+
+  @media (max-width: 860px){
+    .samples{
+        flex-direction: column;
+        width: 700px;
+    }
+    .sample1{
+        width: 700px;
+        margin-left: 0;
+    }
+    .sampleImg1{
+        width: 698px;
+    }
+    .sample2{
+        width: 700px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .sampleImg2{
+        width: 698px;
+    }
+    .sample3{
+        width: 700px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .sampleImg3{
+        width: 698px;
+
+    }
+  }
+
+  @media (max-width: 828px){
+    .svg2Container{
+       display: none;
+    }
+    .homeImg0{
+        width: 840px;
+    }
+
+    .bgText{
+        margin-left: 50px
+    }
+    
+   
+  }
+
+  @media (max-width: 807px){
+    .first{
+        flex-direction: column;
+    }
+    .svg{
+        width: 600px;
+    }
+    .firstDetail{
+        width: 600px;
+    }
+
+    .firstDetailHeader{
+        font-size: 22px;
+    }
+
+
+    .firstDetailContent{
+        font-size: 18px;
+    }
+
+    .secondDetail{
+        width: 350px;
+        margin-left: 15%;
+    }
+   
+  }
+
+  @media (max-width: 740px){
+    .samples{
+        width: 500px;
+    }
+    .sample1{
+        width: 500px;
+        margin-left: 0;
+    }
+    .sampleImg1{
+        width: 498px;
+    }
+    .sample2{
+        width: 500px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .sampleImg2{
+        width: 498px;
+    }
+    .sample3{
+        width: 500px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .sampleImg3{
+        width: 498px;
+
+    }
+  }
+
+  @media (max-width: 725px){
+    .qualitiesContainer{
+        width: 500px;
+    }
+    .qualitiesImg{
+        width: 500px;
+    }
+  }
+
+  @media (max-width: 674px){
+    .first{
+        flex-direction: column;
+    }
+    .svg{
+        width: 500px;
+    }
+    .firstDetail{
+        width: 500px;
+    }
+
+    .firstDetailHeader{
+        font-size: 20px;
+    }
+
+
+    .firstDetailContent{
+        font-size: 16px;
+    }
+  
+   
+  }
+
+  @media (max-width: 646px){
+    .bgHeader{
+        font-size: 40px;
+    }
+    .bgContent{
+        width: 80%;
+    }
+  }
+
+  @media (max-width: 570px){
+    .homeImg3{
+        width: 600px;
+    }
+    .first{
+        flex-direction: column;
+    }
+    .svg{
+        width: 400px;
+    }
+    .firstDetail{
+        width: 400px;
+    }
+
+    .secondDetail{
+        margin-left: 5%;
+    }
+
+    .firstDetailHeader{
+        font-size: 18px;
+    }
+
+
+    .firstDetailContent{
+        font-size: 14px;
+    }
+
+   
+  }
+
+  @media (max-width: 540px){
+    .samples{
+        width: 350px;
+    }
+    .sample1{
+        width: 350px;
+    }
+    .sampleImg1{
+        width: 348px;
+    }
+    .sample2{
+        width: 350px;
+    }
+    .sampleImg2{
+        width: 348px;
+    }
+    .sample3{
+        width: 350px;
+    }
+    .sampleImg3{
+        width: 348px;
+
+    }
+    .qualitiesContainer{
+        width: 300px;
+    }
+    .qualitiesImg{
+        width: 300px;
+    }
+    .qualHeader{
+        font-size: 22px;
+    }
+    .qual1{
+        flex-direction: column;
+    }
+    .qual2{
+        flex-direction: column;
+    }
+    .qual1Content{
+        width: 100%;
+        margin-left: 0;
+    }
+    .qual2Content{
+        width: 100%;
+        margin-left: 0;
+    }
+    .qual3Content{
+        width: 100%;
+    }
+    .qual4Content{
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 477px){
+    .firstDetail{
+        width: 300px;
+        margin-left: 10%;
+    }
+    .svg{
+        width: 300px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    .firstDetailHeader{
+        font-size: 16px;
+    }
+    .bgText{
+        margin-left: 20px
+    }
+    .bgContent{
+        width: 90%;
+    }
+    .firstDetailContent{
+        font-size: 12px;
+    }
+
+    .secondDetail{
+        margin-left: 2%;
+        width: 300px;
+    }
+    .secondDetailHeader{
+       font-size: 16px;
+    }
+    .secondDetailContent{
+        font-size: 12px;
+    }
+    
+    
+  }
+
+  @media (max-width: 400px){
+    .firstDetail{
+        margin-left: 2%;
+    }
+    .svg{
+        margin-left: 2%;
+    }
+  }
+
+  @media (max-width: 380px){
+    .samples{
+        width: 280px;
+    }
+    .sample1{
+        width: 280px;
+    }
+    .sampleImg1{
+        width: 278px;
+    }
+    .sample2{
+        width: 280px;
+    }
+    .sampleImg2{
+        width: 278px;
+    }
+    .sample3{
+        width: 280px;
+    }
+    .sampleImg3{
+        width: 278px;
+
+    }
+  }
+
+  @media (max-width: 360px){
+    .firstDetail{
+        width: 270px;
+        margin-left: 1%;
+    }
+    .svg{
+        width: 270px;
+        margin-left: 1%;
+    }
+    .secondDetail{
+        width: 270px;
+        margin-left: 1%;
+    }
+    .bgHeader{
+        font-size: 30px;
+    }
+    .bgContent{
+        font-size: 18px;
+    }
+    .qualitiesContainer{
+        width: 280px;
+    }
+    .qualitiesImg{
+        width: 280px;
+    }
+  }
+
+
+ 
